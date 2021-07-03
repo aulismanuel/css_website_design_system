@@ -1,4 +1,77 @@
 * {
     font-family: Georgia;
-    background-color: #FFFFFF;
+}
+body {
+    background-color: #E0E0E0;
+}
+header {
+    margin: 20px 200px;
+    padding: 20px;
+}
+section {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 20px 200px;
+    padding: 30px;
+}
+.color {
+    display: inline-block;
+    border: 1px solid #404040;
+    border-radius: 15px;
+    height: 70px;
+    width: 100px;
+    margin: 20px 20px 20px 0px;
+    padding: 15px;
+    font-family: Avenir;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+#color1 {
+    background-color: black;
+    color: white;
+}
+#color2 {
+    background-color: #404040;
+    color: white;
+}
+#color3 {
+    background-color: #E0E0E0;
+    color: #404040;
+}
+#color4 {
+    background-color: white;
+    color: #404040;
+}
+#color5 {
+    background-color: midnightblue;
+    color: white;
+}
+#color6 {
+    background-color: indianred;
+    color: white;
+}
+#fonts h3 {
+    margin-top: 30px;
+}
+.font {
+    width: 400px;
+    display: inline-block;
+    margin: 0px 70px 30px 0px;
+}
+.georgia {
+    font-family: Georgia, serif;
+}
+.avenir {
+    font-family: Avenir, Calibri;
+}
+.helvetica {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+.font-normal {
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-italic {
+    font-style: italic;
 }
